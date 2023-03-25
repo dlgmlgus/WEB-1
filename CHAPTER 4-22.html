@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <title>연습문제</title>
+    <meta charset="UTF-8">
+    <style type="text/css">
+        #books { table-layout: fixed; width: 50% }
+        #books caption { font-size:20pt; font-weight: bold }
+        th { text-align: center; font-weight: bold; }
+        td { text-align: center; font-weight: bold; }
+        #first { background-color: rgb(204, 232, 250) }
+        #second { background-color: rgb(199, 250, 199) }
+       
+    </style>
+    <table border="1" id="books">
+    <caption>시간표</caption>
+    <thead>
+        <tr>
+            <th>교시</th>
+            <th>월</th>
+            <th>화</th>
+            <th>수</th>
+            <th>목</th>
+            <th>금</th>
+        </tr>
+    </thead>
+    <tbody>
+    
+        <tr>
+            <td>1</td>
+            <td rowspan="2" id="second">웹 프로그래밍1</td>
+            <td></td>
+            <td rowspan="2" id="second">인공지능개론</td>
+            <td rowspan="2" id="first">데이터사이언스 기초</td>
+            <td rowspan="2" id="second">웹 프로그래밍1</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td id="second">인공지능개론</td>  
+        </tr>
+        <tr>
+            <td>3</td>
+            <td rowspan="2" id="first">기초독일어</td>
+            <td rowspan="2" id="first">대학영어회화1</td>
+            <td rowspan="2" id="first">물리학의 세계</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td id="second">논리수학</td>
+            <td></td>  
+        </tr>
+        <tr>
+            <td>5</td>
+            <td></td>
+            <td id="first">인제 새내기 세미나</td>
+            <td rowspan="2" id="second">논리수학</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>6</td>
+            <td rowspan="2" id="second">빅데이터기초</td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>7</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            </tr>
+    </tbody>
+</table>
+</html>  
