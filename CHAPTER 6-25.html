@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>레스토랑 예약</title>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <h2>레스토랑 예약하기</h2>
+        <fieldset>
+            <legend>예약자 정보</legend>
+            <label for="reservation">예약자: </label>
+            <input type="text" name="reservation"/> <br>
+            <label for="contact number">연락처: </label>
+            <input type="tel" name="p_tel" placeholder="000-0000-0000" pattern="[0-9]{3}-[0-9]{4}-[0-9]{4}"> <br>
+            <label for="total number of people">예약인원: </label>
+            <select name="total number of people" size="1">
+                <option value="two">2명</option>
+                <option value="three">3명</option>
+                <option value="four">4명</option>
+                <option value="five">5명</option>
+                <option value="six">6명</option>
+            </select>
+        </fieldset>
+            <p>
+                <fieldset>
+                    <legend>일자 선택 및 시간 선택</legend>
+                    <input type="date" name="date_until">
+                    <input type="time" name="time_until">
+                </fieldset>
+            </p>
+            <p>
+                <input type="submit" value="예약"/>
+                <input type="reset" value="취소"/>
+            </p> 
+    </body>
+</html>
