@@ -3,6 +3,10 @@
     <head>
         <meta charset="UTF-8">
         <title>Welcome to SM서점</title>
+        <style type="text/css">
+            aside {float: right }
+            #SNS {float: right }
+        </style>
     </head>
     <body>
     <div class="wrap">
@@ -23,21 +27,18 @@
         </ul>
     </nav>
     <hr>
-    <article class="left">
-        <iframe name="display_area" src="서점 사진.jpg" width="564px" height="595px"></iframe>
-    </article>
-
     <aside class="right">
         <button id="save_favorite" style="width:100px" disabled>관심도서등록</button><br>
         <button id="view_favorite" style="width:100px" disabled>관심도서보기</button><br>
         <button id="album_btn" style="width:100px" disabled>앨범만들기</button><br>
         <button id="location" style="width:100px" disabled>현재위치</button>
     </aside>
+   
+    <article class="left">
+        <iframe name="display_area" src="서점 사진.jpg" width="910px" height="515px"></iframe>
+    </article>
     <hr>
-    <footer>  
-        <div id="copyright">
-            Copyright (c) 2016 SM Bookstore Inc. All rights reserved
-        </div>
+    <footer> 
         <div id="SNS">
             <a href="http://facebook.com/" target="_blank">
             <img src="facebook.png" height="32" alt="Facebook">
@@ -48,6 +49,9 @@
             <a href="http://instagram.com/" target="_blank">
             <img src="instagram.png" height="32" alt="Instagram">
             </a>
+        </div> 
+        <div id="copyright">
+            Copyright (c) 2016 SM Bookstore Inc. All rights reserved
         </div>
     </footer>
     </div>
