@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>8-19 예제</title>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <script type="text/javascript">
+            var sum = 0; 
+            for (var num = 3; num <= 1000; num = num * 3) {
+                sum = sum + num;                                                                  
+            }
+            document.write("모든 3의 배수의 합: " + sum);         
+        </script>
+    </body>
+</html>
