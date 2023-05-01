@@ -16,7 +16,7 @@
             else if(choice == "화요일")
                 title = day2;
             else { alert("요일을 올바르게 입력해 주세요.");
-                 title = ""; }
+                title = ""; }
 
             document.write(title);  
         </script>
