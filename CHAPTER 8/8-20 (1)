@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>8-20 예제</title>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <script type="text/javascript">
+            var day1 = "Monday";
+            var day2 = "Tuesday";
+
+            var choice = prompt("요일을 입력하세요.");
+
+            if (choice == "월요일")
+                title = day1;
+            else if(choice == "화요일")
+                title = day2;
+            else { alert("요일을 올바르게 입력해 주세요.");
+                 title = ""; }
+
+            document.write(title);  
+        </script>
+    </body>
+</html>
