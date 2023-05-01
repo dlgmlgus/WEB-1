@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>8-19 예제</title>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <script type="text/javascript">
+            num = 3;
+            while (num <= 1000) {
+                document.write(num + " ");
+                num = num * 3;
+                document.write()
+            }            
+        </script>
+    </body>
+</html>
