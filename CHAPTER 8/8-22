@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>8-22 예제</title>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <script type="text/javascript"> 
+            const num1 = parseInt(prompt("숫자를 입력하세요."));
+            const operator = prompt("연산 기호를 입력하세요. (+, -, *, / 중 하나)");
+            const num2 = parseInt(prompt("숫자를 입력하세요."));
+
+            let result;
+            switch(operator) {
+                case '+':
+                    result = num1 + num2;
+                    break;
+                case '-':
+                    result = num1 - num2;
+                    break;
+                case '*':
+                    result = num1 * num2;
+                    break;
+                case '/':
+                    result = num1 / num2;
+                    break;
+                default:
+                    alert("잘못된 연산 기호입니다.");
+                    break;
+            }
+
+            document.write("결과는 " + result + "입니다.");         
+        </script>
+    </body>
+</html>
