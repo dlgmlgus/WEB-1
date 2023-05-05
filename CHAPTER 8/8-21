@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>8-21 예제</title>
+        <meta charset="UTF-8">
+        <style>
+            table {
+                border-collapse: collapse;
+            }
+            td {
+                border: 1px solid black;
+                width: 50px;
+                height: 50px;
+            }
+        </style>
+    </head>
+    <body>
+        <script type="text/javascript"> 
+            const rows = parseInt(prompt("행 수를 입력하세요."));
+            const columns = parseInt(prompt("열 수를 입력하세요."));
+
+            let table = "<table>";
+            for (let i = 0; i < rows; i++) {
+                table += "<tr>";
+            for (let j = 0; j < columns; j++) {
+                table += "<td></td>";
+            }
+            table += "</tr>";
+            }
+            table += "</table>";
+
+            document.write(table);         
+        </script>
+    </body>
+</html>
