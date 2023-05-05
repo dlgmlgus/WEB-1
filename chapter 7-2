@@ -4,9 +4,21 @@
         <title>Domestic Books</title>
         <meta charset="UTF-8">
         <style type="text/css">
-            div.book { display: none }
-            div.h3 { display: flex;}
-
+            h3 {
+                font-size: 20pt
+            }
+            .book {
+                display: flex
+            }
+            .book img {
+                float: left; display: flex; margin: 20px; padding: 10px; width: 100px; height: 120px
+            }
+            .book div {
+                display: none; margin-bottom: 20px
+            }
+            .book img:hover + div {
+                display: block
+            }
         </style>
     </head>
     <body>
