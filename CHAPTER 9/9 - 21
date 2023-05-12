@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>9 - 21 예제</title>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <script type="text/javascript">
+            var today = new Date();
+            var year = today.getFullYear();
+            var month = today.getMonth() +1;
+            var date = today.getDate();
+            var day = today.getDay();
+
+            document.write("오늘 날짜: "+ year + "년 "+ month + "월 " + date + "일 " + day + "<br/>");
+        </script>
+    </body>
+</html>
