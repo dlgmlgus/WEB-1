@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>10 - 13 예제</title>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <input id="dept" type="text" name="department" value="web programming">
+        <script type="text/javascript">
+            var deptInput = document.getElementById("dept");
+            var deptName = deptInput.name;
+            console.log(deptName);
+        </script>
+    </body>
+</html>
