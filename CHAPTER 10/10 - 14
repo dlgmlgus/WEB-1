@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>10 - 14 예제</title>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <div id="button_area"></div>
+        <script type="text/javascript">
+            var buttonArea = document.getElementById("button_area");
+
+            var button1 = document.createElement("input");
+            button1.setAttribute("type", "button");
+            button1.setAttribute("value", "자바스크립트에 의해서 동적으로 생성 및 삽입되었음(1)");
+
+            var button2 = document.createElement("input");
+            button2.setAttribute("type", "button");
+            button2.setAttribute("value", "자바스크립트에 의해서 동적으로 생성 및 삽입되었음(2)");
+
+        buttonArea.appendChild(button1);
+        buttonArea.appendChild(button2);
+        </script>
+    </body>
+</html>
