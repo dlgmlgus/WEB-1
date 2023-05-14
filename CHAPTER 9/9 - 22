@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>9 - 22 예제</title>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <script type="text/javascript">
+            var now = new Date();
+            var timestamp = now.getTime();
+
+            var year = now.getFullYear();
+            var month = now.getMonth() + 1;
+            var day = now.getDate();
+
+            var hour = now.getHours();
+            var minute = now.getMinutes();
+            var second = now.getSeconds();
+
+            console.log("오늘은 " + year + "년 " + month + "월 " + day + "일 입니다.");
+            console.log("현재 시간은 " + hour + "시 " + minute + "분 " + second + "초 입니다.");
+        </script>
+    </body>
+</html>
