@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>11 - 24 예제</title>
+        <meta charset="UTF-8">
+        <style>
+            .image {
+                position: absolute;
+                width: 400px;
+                height: 400px;
+                visibility: hidden;
+            }
+        </style>
+    </head>
+    <body>
+        <img class="image" src="https://cdn.pixabay.com/photo/2017/08/01/09/04/dog-2563759_960_720.jpg">
+        <img class="image" src="https://cdn.pixabay.com/photo/2016/11/01/23/38/beach-1790049_640.jpg">
+        <img class="image" src="https://cdn.pixabay.com/photo/2015/07/31/11/43/rottweiler-869018_640.jpg">
+        <img class="image" src="https://cdn.pixabay.com/photo/2016/11/21/12/31/flowers-1845074_640.jpg">
+        <img class="image" src="https://cdn.pixabay.com/photo/2017/06/28/04/07/dog-2449668_640.jpg">
+        <img class="image" src="https://cdn.pixabay.com/photo/2014/03/04/19/53/dog-279698_640.jpg">
+        <img class="image" src="https://cdn.pixabay.com/photo/2016/02/08/19/03/puppy-1187267_640.jpg">
+        <img class="image" src="https://cdn.pixabay.com/photo/2014/04/05/11/40/puppy-316670_640.jpg">
+        <img class="image" src="https://cdn.pixabay.com/photo/2015/06/15/23/56/chihuahua-810789_640.jpg">
+        <img class="image" src="https://cdn.pixabay.com/photo/2017/10/02/02/28/puppy-2807713_640.jpg">
+
+        <script type="text/javascript">
+            var images = document.getElementsByClassName("image");
+
+        </script>
+    </body>
+</html>
