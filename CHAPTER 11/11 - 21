@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>11 - 21 예제</title>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <div id="background" style="background: black; width: 500px; height: 400px;"></div>
+
+        <script type="text/javascript">
+            function changeColor(id, color) {
+                document.getElementById(id).style.background = color;
+            }
+        </script>
+
+        background:
+        <button onclick="changeColor('background', 'blue' );"> Blue </button>
+        <button onclick="changeColor('background', 'red' );"> Red </button>
+    </body>
+</html>
