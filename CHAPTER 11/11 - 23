@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>11 - 23 예제</title>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <form>
+            <input type="button" value="뺄셈" onclick="subtract();"/>
+            <input type="button" value="곱셈" onclick="multiply();"/>
+            <input type="button" value="나눗셈" onclick="divide();"/>
+        </form>
+
+        <script>
+            function subtract() {
+                var num1 = parseFloat(prompt("첫 번째 숫자를 입력하세요."));
+                var num2 = parseFloat(prompt("두 번째 숫자를 입력하세요."));
+                var result = num1 - num2;
+                alert("뺄셈 결과: " + result);
+            }
+
+            function multiply() {
+                var num1 = parseFloat(prompt("첫 번째 숫자를 입력하세요."));
+                var num2 = parseFloat(prompt("두 번째 숫자를 입력하세요."));
+                var result = num1 * num2;
+                alert("곱셈 결과: " + result);
+            }
+
+            function divide() {
+                var num1 = parseFloat(prompt("첫 번째 숫자를 입력하세요."));
+                var num2 = parseFloat(prompt("두 번째 숫자를 입력하세요."));
+                if (num2 === 0) {
+                    alert("0으로 나눌 수 없습니다.");
+                    return;
+                }
+                var result = num1 / num2;
+                alert("나눗셈 결과: " + result);
+            }
+        </script>
+    </body>
+</html>
