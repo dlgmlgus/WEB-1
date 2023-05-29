@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+<head> 
+    <title> 12 - 20 예제 </title> 
+    <meta charset="UTF-8">
+</head>
+<body>
+	<div id="name" style="display: block;">
+		<p id="text" draggable = "true">이희현</p>
+	</div>
+	<div id="process"></div>
+
+    <script type="text/javascript">
+    var text = document.getElementById("text"),
+        nameId,i=0;
+	    process = document.getElementById("process");
+
+    text.ondragstart = function(e){
+	    textId = e.target.id;
+	    process.innerHTML = "드래그 시작: "+textId+"<br/>";  
+    }
+    text.ondrag = function(e){  
+		process.innerHTML = "드래그 시작: "+textId+"<br/>드래그 시작: "+textId+" ["+(i++)+"]";  
+	}
+    text.ondragend = function(e){
+	    process.innerHTML += "<br/>드래그 가능: "+textId+"<br/>";
+    }
+    </script>
+</body>
+</html>
