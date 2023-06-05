@@ -6,16 +6,16 @@
     </head>
     <body>
         <div id="image" style="position: absolute; width: 300px; height: 300px;">
-            <img id="img1" src="https://cdn.pixabay.com/photo/2017/08/01/09/04/dog-2563759_960_720.jpg" style="position: absolute; visibility: visible;">
-            <img id="img2" src="https://cdn.pixabay.com/photo/2017/08/01/09/04/dog-2563759_640.jpg" style="position: absolute; visibility: visible;">
-            <img id="img3" src="https://cdn.pixabay.com/photo/2019/08/07/14/10/golden-retriever-4390884_640.jpg" style="position: absolute; visibility: visible;">
-            <img id="img4" src="https://cdn.pixabay.com/photo/2016/11/01/23/38/beach-1790049_640.jpg" style="position: absolute; visibility: visible;">
-            <img id="img5" src="https://cdn.pixabay.com/photo/2014/03/05/19/23/dog-280332_640.jpg" style="position: absolute; visibility: visible;">
-            <img id="img6" src="https://cdn.pixabay.com/photo/2015/07/31/11/43/rottweiler-869018_640.jpg" style="position: absolute; visibility: visible;">
-            <img id="img7" src="https://cdn.pixabay.com/photo/2017/06/28/04/07/dog-2449668_640.jpg" style="position: absolute; visibility: visible;">
-            <img id="img8" src="https://cdn.pixabay.com/photo/2016/11/01/23/38/bandana-1790048_640.jpg" style="position: absolute; visibility: visible;">
-            <img id="img9" src="https://cdn.pixabay.com/photo/2014/04/05/11/40/puppy-316670_640.jpg" style="position: absolute; visibility: visible;">
-            <img id="img10" src="https://cdn.pixabay.com/photo/2015/06/15/23/56/chihuahua-810789_640.jpg" style="position: absolute; visibility: visible;">
+            <img id="img1" src="강아지 사진1.jpg" style="position: absolute; visibility: visible;">
+            <img id="img2" src="강아지 사진2.jpg" style="position: absolute; visibility: visible;">
+            <img id="img3" src="강아지 사진3.jpg" style="position: absolute; visibility: visible;">
+            <img id="img4" src="강아지 사진4.jpg" style="position: absolute; visibility: visible;">
+            <img id="img5" src="강아지 사진5.jpg" style="position: absolute; visibility: visible;">
+            <img id="img6" src="강아지 사진6.jpg" style="position: absolute; visibility: visible;">
+            <img id="img7" src="강아지 사진7.jpg" style="position: absolute; visibility: visible;">
+            <img id="img8" src="강아지 사진8.jpg" style="position: absolute; visibility: visible;">
+            <img id="img9" src="강아지 사진9.jpg" style="position: absolute; visibility: visible;">
+            <img id="img10" src="강아지 사진10.jpg" style="position: absolute; visibility: visible;">
         </div>
 
         <script type="text/javascript">
